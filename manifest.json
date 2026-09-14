@@ -1,0 +1,9 @@
+{
+  "name": "Huisritme",
+  "short_name": "Huisritme",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#26302A",
+  "theme_color": "#26302A",
+  "description": "Huishoudelijke taken bijhouden op je eigen ritme"
+}
