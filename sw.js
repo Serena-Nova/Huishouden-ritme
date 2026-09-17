@@ -1,19 +1,6 @@
-const CACHE_NAME = "huisritme-v1";
-const APP_SHELL = [
-  "./",
-  "./index.html",
-  "./bundle.js",
-  "./manifest.json",
-  "./favicon.ico",
-  "./apple-touch-icon.png",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
-];
+const CACHE_NAME = "huisritme-v2";
 
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL))
-  );
+self.addEventListener("install", () => {
   self.skipWaiting();
 });
 
