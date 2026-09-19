@@ -16,14 +16,5 @@
 <body>
   <div id="root"></div>
   <script src="bundle.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("sw.js").catch((err) => {
-          console.error("Service worker registratie mislukt:", err);
-        });
-      });
-    }
-  </script>
 </body>
 </html>
